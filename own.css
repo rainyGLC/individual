@@ -1,0 +1,272 @@
+.clearfix:after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+header
+{
+    background: rgba(0,0,0,0.4);
+}
+.main-wrapper
+{
+    background: url(beijingone.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner{
+    background: transparent;
+    height: 700px;
+}
+#banner .inner{         
+    max-width: 300px;
+    max-height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 160px;
+}
+
+#banner .inner .photo{
+
+    margin: 0;
+}
+.photo{   
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+button
+{
+    border: none;
+    background: #089DB0;
+    color: #eee;
+}
+#banner button
+{
+    padding: 14px 60px;
+}
+.sentence{
+
+    line-height: 30px;
+    margin: 30px 0;
+    color: #fff;
+}
+.blue-section
+{
+    background: #089DB0;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.blue-section .hr
+{
+    background: #079494;
+    width: 60%;
+}
+
+.blue-section .icon-group .icon
+{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 1px solid  #0D6F7C;
+    transform: rotate(45deg);
+    margin: 30px;
+}
+
+.icon-group
+{
+    margin-top: 60px;
+}
+
+.wrapper
+{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+h2
+{
+    font-size: 30px;
+}
+
+h3
+{
+    font-size: 24px;
+}
+p
+{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.hr
+{
+    width: 100%;
+    height: 2px;
+    margin: 0 auto;
+    margin: 20px auto;
+}
+
+.sub-heading
+{
+    font-size: 18px;
+}
+#main-btn
+{
+    padding: 14px 28px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    border-collapse: 6px;
+    background: #18a;
+}
+.green-section
+{
+    background: #089DB0;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0px;
+}
+.green-section .hr
+{
+    background: #079494;
+    width: 60%;
+}
+.green-section .icon-group .icon 
+{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 1px solid  #0D6F7C;
+    transform: rotate(45deg);
+    margin: 30px;
+}
+.icon-imges{
+    width: 80px;
+    height: 80px;
+}
+.icon-group
+{
+    margin-top: 60px;
+}
+.wrapper
+{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.gray-section
+{
+    background: #991f1fab;
+    color: #fff;
+}
+.gray-section .img-section
+{
+    width: 45%;
+    margin: 0;
+}
+.img-section img
+{
+    width: 100%
+}
+.gray-section .text-section
+{
+    width: 55%;
+}
+.article-preview > div
+{
+    float: left;
+    font-size: 0;
+}
+.article-preview:nth-child(odd)
+{
+    background-color: rgba(255,255,255,0.05);
+}
+
+.article-preview:after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+.text-section
+{
+    position: relative;
+    top: 68px;
+    left: 50px;
+}
+.text-section h2
+{
+    margin-bottom: 20px;
+}
+
+.text-section .sub-heading
+{
+    font-size: 22px;
+    margin-top: 0;
+}
+.text-section p
+{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.text-section > *{
+    max-width: 90%;
+}
+.purple-section
+{
+    padding: 80px;
+    background: #3F3965;
+    color: #fff;
+}
+.purple-section .heading-wrapper
+{
+    text-align: center;
+}
+.purple-section .hr
+{
+    background: #373259;
+    width: 100%;
+}
+.card
+{
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    padding: 50px;
+    -webkit-box-sizing:border-box;
+    -mon-box-sizing:border-box;
+    box-sizing:border-box;
+    /*border: 1px solid white;*/
+}
+footer
+{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    min-height: 200px
+
+}
+ul
+{
+    margin: 0;
+}
+ul.share-group
+{
+    display: block;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.share-group li
+{
+    display: inline-block;
+    padding: 10px;
+}
+.copy
+{
+    padding-bottom: 30px;
+}
+
+
